@@ -29,7 +29,7 @@ from zmq.core._version import zmq_version_info
 # Code
 #-----------------------------------------------------------------------------
 
-__version__ = '2.2.0.1'
+__version__ = '2.2.0.1-ltu'
 __revision__ = ''
 
 def pyzmq_version():
@@ -44,11 +44,11 @@ def pyzmq_version():
 
 def pyzmq_version_info():
     """pyzmq_version_info()
-    
+
     Return the pyzmq version as a tuple of numbers
-    
+
     If pyzmq is a dev version, the patch-version will be `inf`.
-    
+
     This helps comparison of version tuples in Python 3, where str-int
     comparison is no longer legal for some reason.
     """
